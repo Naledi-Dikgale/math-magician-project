@@ -21,7 +21,7 @@ body {
 
 .calc-container > button {
   height: 60px;
-  border: 1px solid white;
+  border: 2px solid white;
 }
 
 .orange {
