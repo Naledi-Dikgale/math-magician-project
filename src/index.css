@@ -1,11 +1,13 @@
 body {
-  background-color: aquamarine;
+  background-color: rgb(245, 121, 197);
   box-sizing: border-box;
 }
 
 .calc-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  width: 50%;
+  margin: 0 auto;
 }
 
 .answer-box {
@@ -16,12 +18,18 @@ body {
   justify-content: space-around;
   padding: 1rem;
   border: 1px solid;
+  color: white;
   background-color: rgb(156, 152, 152);
 }
 
 .calc-container > button {
   height: 60px;
   border: 2px solid white;
+}
+
+.calc-container > button:active {
+  background-color: rgb(245, 121, 197);
+  color: white;
 }
 
 .orange {
