@@ -1,8 +1,12 @@
 import React from 'react';
 import Display from './Display';
+import Quotes from './quotes';
 
 const Calculator = () => (
-  <Display />
+  <div className="naledi">
+    <Display />
+    <Quotes />
+  </div>
 );
 
 export default Calculator;
