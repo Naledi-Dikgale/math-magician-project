@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
 const url = 'https://api.api-ninjas.com/v1/quotes?category=happiness';
-// const key = process.env.REACT_APP_API_KEY;
 const key = '8vgtGjPJ3/jWLwKlMNabtA==TWkGU7kOUsOCdARG';
 
 function Quotes() {
