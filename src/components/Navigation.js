@@ -1,10 +1,12 @@
+import { Link } from 'react-router-dom';
+
 const Navigation = () => (
   <nav className="nav-bar">
     <h1 className="logo">Math Magicians</h1>
     <ul className="nav-items">
-      <li><a className="line" href="/">Home</a></li>
-      <li><a className="line" href="/calculator">Calculator</a></li>
-      <li><a href="/quotes">Quotes</a></li>
+      <li><Link className="line" to="/">Home</Link></li>
+      <li><Link className="line" to="/calculator">Calculator</Link></li>
+      <li><Link to="/quotes">Quotes</Link></li>
     </ul>
   </nav>
 );
