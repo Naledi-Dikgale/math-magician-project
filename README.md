@@ -26,7 +26,7 @@
 
 # 📖 Math Magician Project <a name="about-project"></a>
 
-**Math Magician Project** Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations. The application can also read a random math-related quote.
+**Math Magician Project** Math magicians is a website for all fans of mathematics. It is an app that allows users to make simple calculations. The application also displays random motivational quotes.
 
 ## 🛠 Built With <a name="built-with">Create React App</a>
 
