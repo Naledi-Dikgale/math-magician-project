@@ -1,13 +1,52 @@
-body {
-  background-color: rgb(245, 121, 197);
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  font-style: oblique;
+}
+
+.nav-bar {
+  background-color: rgb(156, 152, 152);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(12, 110, 92);
+}
+
+ul li a {
+  color: rgb(12, 110, 92);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.heading,
+.calc-text {
+  color: rgb(34, 97, 84);
+  margin: 2rem;
+}
+
+.calc-text {
+  margin-top: 150px;
+  margin-left: 100px;
+  display: flex;
+  text-align: center;
 }
 
 .calc-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   width: 50%;
-  margin: 0 auto;
+  margin: 150px 100px;
+}
+
+body {
+  background-color: rgb(245, 197, 226);
 }
 
 .answer-box {
@@ -19,7 +58,7 @@ body {
   padding: 1rem;
   border: 1px solid;
   color: white;
-  background-color: rgb(156, 152, 152);
+  background-color: #9f8f8f;
 }
 
 .calc-container > button {
@@ -33,7 +72,7 @@ body {
 }
 
 .orange {
-  background-color: orange;
+  background-color: rgb(248, 112, 15);
 }
 
 .zero {
@@ -41,20 +80,44 @@ body {
 }
 
 .quotes {
-  max-width: 600px;
+  display: flex;
+  border: 5px solid rgb(12, 110, 92);
+  width: 50%;
+  align-self: center;
+  padding: 1rem;
+  margin: 150px auto;
+  border-radius: 10px;
 }
 
 .quotes p {
   font-size: 1.5rem;
   font-weight: bold;
-  color: white;
+  color: rgb(72, 17, 42);
   text-align: center;
 }
 
 .calc-quotes {
-  width: 100vw;
   display: flex;
-  justify-content: center;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  flex-direction: column;
+  gap: 2rem;
+  list-style: none;
+}
+
+.line {
+  border-right: 2px solid;
+  padding-right: 1.5rem;
+}
+
+.welcome-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(12, 110, 92);
+  text-align: center;
+  margin: 5rem;
 }
