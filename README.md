@@ -90,6 +90,12 @@ You can deploy this project through Github Pages
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/naledi-dikgale-068423159/)
 - Website: https://naledi-dikgale.github.io/mobile-portfolio/
 
+ 👤 **Ikechukwu**
+
+- GitHub: [@boniface193](https://github.com/boniface193)
+- Twitter: [@bidtechnologies](https://twitter.com/bidtechnologies)
+- LinkedIn: [boniface-ikechukwu](https://www.linkedin.com/in/boniface-ikechukwu/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
