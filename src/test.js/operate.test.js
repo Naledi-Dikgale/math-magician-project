@@ -5,7 +5,7 @@ describe('testing operate.js function', () => {
     expect(typeof operate(2, 2, '+')).toBe('string');
   });
 
-    test('expect 3 * 3 to be 9', () => {
-        expect(operate(3, 3, 'x')).toBe('9');
-    })
-})
+  test('expect 3 * 3 to be 9', () => {
+    expect(operate(3, 3, 'x')).toBe('9');
+  });
+});
