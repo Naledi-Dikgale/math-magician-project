@@ -8,5 +8,9 @@ describe('testing operate.js function', () => {
 
     test('expect 3 * 3 to be 9', () => {
         expect(operate(3, 3, 'x')).toBe('9');
-    })
+    });
+
+    test('expect 3 + 3 to be 6', () => {
+        expect(operate(3, 3, '+')).toBe('6');
+    });
 })

@@ -18,5 +18,14 @@ describe('testing operate.js function', () => {
             operation: null,
         }
         expect(calculate(obj, '0')).toEqual({});
-    })
+    });
+
+    test('expect 0 and obj.next to be 0', () => {
+        const obj = {
+            total: null,
+            next: null,
+            operation: null,
+        }
+        expect(calculate(obj, 'AC')).toEqual(obj);
+    });
 })
