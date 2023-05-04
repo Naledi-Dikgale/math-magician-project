@@ -26,7 +26,7 @@
 
 # 📖 Math Magician Project <a name="about-project"></a>
 
-**Math Magician Project** Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations. The application can also read a random math-related quote.
+**Math Magician Project** Math magicians is a website for all fans of mathematics. It is an app that allows users to make simple calculations. The application also displays random motivational quotes.
 
 ## 🛠 Built With <a name="built-with">Create React App</a>
 
@@ -89,6 +89,12 @@ You can deploy this project through Github Pages
 - Twitter: [@twitterhandle](https://twitter.com/ChichiTheStar)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/naledi-dikgale-068423159/)
 - Website: https://naledi-dikgale.github.io/mobile-portfolio/
+
+ 👤 **Ikechukwu**
+
+- GitHub: [@boniface193](https://github.com/boniface193)
+- Twitter: [@bidtechnologies](https://twitter.com/bidtechnologies)
+- LinkedIn: [boniface-ikechukwu](https://www.linkedin.com/in/boniface-ikechukwu/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
