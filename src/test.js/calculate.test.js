@@ -1,4 +1,7 @@
+import '@testing-library/jest-dom';
+import { render, fireEvent } from '@testing-library/react';
 import calculate from '../logic/calculate.js';
+import Display from '../components/Display.js';
 
 describe('testing operate.js function', () => {
   test('expect tobe an object', () => {
@@ -27,4 +30,11 @@ describe('testing operate.js function', () => {
     };
     expect(calculate(obj, 'AC')).toEqual(obj);
   });
+});
+
+test('shold change symbol when +/- is clicked', () => {
+  const { getByText } = render(<Display />);
+  fireEvent.click(getByText('1'));
+  fireEvent.click(getByText('+/-'));
+  expect(getByText('-1')).toBeInTheDocument();
 });

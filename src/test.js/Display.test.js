@@ -1,6 +1,6 @@
 import '@testing-library/jest-dom';
 import { render, fireEvent } from '@testing-library/react';
-import Display from './components/display';
+import Display from '../components/display';
 
 describe('Display Component', () => {
   test('renders all necessary buttons', () => {
