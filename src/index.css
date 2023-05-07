@@ -121,3 +121,21 @@ body {
   text-align: center;
   margin: 5rem;
 }
+
+@media screen and (max-width: 600px) {
+  .calc-quotes {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .calc-text {
+    margin: 40px 0;
+    align-self: center;
+  }
+
+  .calc-container {
+    width: 95%;
+    margin: 0;
+    align-self: center;
+  }
+}
