@@ -38,4 +38,3 @@ test('shold change symbol when +/- is clicked', () => {
   fireEvent.click(getByText('+/-'));
   expect(getByText('-1')).toBeInTheDocument();
 });
-

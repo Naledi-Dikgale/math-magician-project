@@ -122,6 +122,8 @@ body {
   margin: 5rem;
 }
 
+/* mobile screen css */
+
 @media screen and (max-width: 600px) {
   .calc-quotes {
     flex-direction: column;
