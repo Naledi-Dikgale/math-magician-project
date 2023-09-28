@@ -46,7 +46,7 @@ ul li a {
 }
 
 body {
-  background-color: rgb(245, 197, 226);
+  background-color: rgb(17, 16, 17);
 }
 
 .answer-box {
@@ -56,14 +56,15 @@ body {
   align-items: flex-end;
   justify-content: space-around;
   padding: 1rem;
-  border: 1px solid;
+  border-top: 1px solid;
   color: white;
-  background-color: #9f8f8f;
+  background-color: rgb(48, 45, 48);
 }
 
 .calc-container > button {
   height: 60px;
-  border: 2px solid white;
+  border: 2px solid rgb(156, 146, 146);
+  border-radius: 10px;
 }
 
 .calc-container > button:active {
@@ -139,5 +140,10 @@ body {
     width: 95%;
     margin: 0;
     align-self: center;
+  }
+
+  .nav-bar {
+    flex-direction: column;
+    gap: 1rem;
   }
 }
