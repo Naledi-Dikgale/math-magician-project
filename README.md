@@ -86,7 +86,6 @@ You can deploy this project through Github Pages
 👤 **Naledi Dikgale**
 
 - GitHub: [@githubhandle](https://github.com/Naledi-Dikgale)
-- Twitter: [@twitterhandle](https://twitter.com/ChichiTheStar)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/naledi-dikgale-068423159/)
 - Website: [@naledi_dikgale](https://nalediportfolio.netlify.app/)
 
